@@ -1,0 +1,10 @@
+[package]
+name = "func_exec"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aggregator = "0.1.0"
+
+[profile.release]
+panic = 'abort'
